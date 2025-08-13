@@ -40,9 +40,10 @@ Clone the repository
 ```bash
 git clone https://github.com/pksri1996/Docker_Learn.git
 cd Docker_Learn
-Build & run containers
 
 ```
+Build & run containers
+
 
 ```bash
 docker-compose up --build

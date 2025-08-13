@@ -37,17 +37,17 @@ Optional: used to auto-scale containers based on traffic or health.
 🛠️ How to Use
 Clone the repository
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/pksri1996/Docker_Learn.git
 cd Docker_Learn
 Build & run containers
 
-bash
-Copy
-Edit
+```
+
+```bash
 docker-compose up --build
+
+```
 🔹 Builds Node.js backend image from Dockerfile
 
 🔹 Starts a MongoDB container
@@ -76,8 +76,8 @@ GET /api/books → Retrieve all books.
 
 Stop containers
 
-bash
-Copy
-Edit
+```bash
 docker-compose down
+
+```
 This setup gives a simple but complete environment for experimenting with Docker, building images, and running multiple containers with a single command.

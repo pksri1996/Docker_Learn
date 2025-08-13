@@ -65,14 +65,15 @@ Test the example routes
 
 POST /api/books → Add a book:
 
-json
-Copy
-Edit
+```json
+
 {
   "title": "Book Title",
   "author": "Author Name",
   "genre": "Fiction"
 }
+```
+
 GET /api/books → Retrieve all books.
 
 Stop containers
